@@ -1,4 +1,4 @@
 homepage: "https://www.clickreport.com/"
 versions:
-  - sha: 76e2d8a2f218dbf7c67e8d6ffecee167d09fa2f5
+  - sha: 2a444b1b30f5a24ecb426d0979d575239146a82e
     changeNotes: Initial Version
