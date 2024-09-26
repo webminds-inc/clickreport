@@ -1,0 +1,4 @@
+homepage: "https://www.clickreport.com/"
+versions:
+  - sha: 00fb0b6820ca95e306006bf5bfe0bbf3dff5bcea
+    changeNotes: Initial Version
