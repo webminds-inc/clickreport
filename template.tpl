@@ -48,7 +48,8 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Enter your template code here.
 const injectScript = require('injectScript');
 const url = 'https://service.clickreport.com/wmcaudit.js?id=' + data.clickreport_id;
-injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
+injectScript(url, function() {}, data.gtmOnFailure, url);
+data.gtmOnSuccess();
 
 
 ___WEB_PERMISSIONS___
