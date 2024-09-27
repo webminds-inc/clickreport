@@ -1,4 +1,6 @@
 homepage: "https://www.clickreport.com/"
 versions:
+  - sha: a4b6b64d94cf7f415191dae54de0a5be40eb0b89
+    changeNotes: Fix function
   - sha: 2a444b1b30f5a24ecb426d0979d575239146a82e
     changeNotes: Initial Version
