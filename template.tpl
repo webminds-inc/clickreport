@@ -46,10 +46,10 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 // Enter your template code here.
+const encodeUriComponent = require('encodeUriComponent');
 const injectScript = require('injectScript');
-const url = 'https://service.clickreport.com/wmcaudit.js?id=' + data.clickreport_id;
-injectScript(url, function() {}, data.gtmOnFailure, url);
-data.gtmOnSuccess();
+const url = 'https://service.clickreport.com/wmcaudit.js?id=' + encodeUriComponent(data.clickreport_id);
+injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
 ___WEB_PERMISSIONS___
